@@ -169,7 +169,7 @@ public class Leilao {
 		Usuario ultimoUsuarioQueDeuLance = ultimoLanceDado().getUsuario();
 		return !ultimoUsuarioQueDeuLance.equals(lance.getUsuario());
 	}
-	
+
 	private int qtdDeLancesDo(Usuario usuario) {
 		int total = 0;
 		for (Lance l : lances) {
